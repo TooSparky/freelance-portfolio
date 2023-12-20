@@ -18,6 +18,6 @@ function App() {
       <Footer />
     </ApolloProvider>
   );
-};
+}
 
 export default App
