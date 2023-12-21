@@ -8,22 +8,23 @@
 /* Header Section */
 #header-section {
     display: flex;
-    height: 90vh;
+    height: 80vh;
     margin-top: 10rem;
 }
 
 .column-1 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .column-2 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .column-1, .column-2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 15rem;
     width: 50%;
     color: var(--white);
 }
@@ -49,10 +50,95 @@
 /* Feature Section */
 #feature-section {
     display: flex;
-    height: 100vh;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+/* Feature List Section */
+
+#feature-list-section {
+    display: flex;
+    height: 80vh;
     margin-top: 10rem;
     color: var(--white);
 }
 
 /* Benefits Section */
+
+#benefits-section {
+    display: flex;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+/* Services Section */
+
+#services-section {
+    display: flex;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 0 15rem;
+}
+
+.row-2 {
+
+}
+
+.row-3 {
+
+}
+
+/* Stats Section */
+
+#stats-section {
+    display: flex;
+    height: 40vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+/* Testimonial Section */
+
+#testimonial-section {
+    display: flex;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+/* CTA Section */
+
+/* #CTA-section {
+    display: flex;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+} */
+
+/* FAQ Section */
+
+#FAQ-section {
+    display: flex;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
+
+/* Team-section */
+
+#team-section {
+    display: flex;
+    height: 80vh;
+    margin-top: 10rem;
+    color: var(--white);
+}
 
