@@ -8,8 +8,8 @@
 /* Header Section */
 #header-section {
     display: flex;
-    height: 80vh;
-    margin-top: 10rem;
+    height: 100vh;
+    padding-top: 15rem;
 }
 
 .column-1 h1 {
