@@ -1,0 +1,22 @@
+#footer {
+    color: #fff;
+}
+
+.footer-top-row {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    margin-left: 20rem;
+}
+
+.footer-bottom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-column-1, .footer-column-2, .footer-column-3, .footer-column-4 {
+    width: 25%;
+}
+

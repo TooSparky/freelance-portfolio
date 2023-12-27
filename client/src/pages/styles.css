@@ -1,6 +1,12 @@
 :root {
     --white: #fff;
     --special-color: #2158ff;
+
+    --primary-color: #3597DF;
+    --secondary-color-light: #CCC;
+    --secondary-color-dark: #A5A5A5;
+    --secondary-color-green: #84E878;
+    
     --black: #000;
     --background-color: #242424;
 }
