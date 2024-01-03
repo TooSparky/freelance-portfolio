@@ -1,6 +1,7 @@
 import './styles.css';
 
 export default function Navbar() {
+
     return(
         <div className='nav-container sticky'>
             <nav id="nav">

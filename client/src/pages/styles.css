@@ -6,6 +6,12 @@
     --secondary-color-light: #CCC;
     --secondary-color-dark: #A5A5A5;
     --secondary-color-green: #84E878;
+
+    --dark-blue: #5680E9;
+    --teal: #84CEEB;
+    --light-blue: #5AB9EA;
+    --silver: #C1C8E4;
+    --purple: #8860D0;
     
     --black: #000;
     --background-color: #242424;
@@ -15,7 +21,7 @@
 #header-section {
     display: flex;
     height: 100vh;
-    padding-top: 15rem;
+    align-items: center;
 }
 
 .column-1 h1 {
@@ -194,7 +200,7 @@
 .profession {
     margin-left: 3rem;
     padding-left: 3rem;
-    border-left: thin solid #fff;
+    border-left: thin solid var(--white);
 }
 
 /* CTA Section */
@@ -234,7 +240,7 @@
 }
 
 .question-1, .question-2, .question-3, .question-4, .question-5, .question-6 {
-    border-bottom: thin solid #fff;
+    border-bottom: thin solid var(--white);
     padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
@@ -244,7 +250,29 @@
 #team-section {
     display: flex;
     height: 80vh;
-    margin-top: 10rem;
+    margin-top: 5rem;
     color: var(--white);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.member-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member {
+    text-align: center;
+}
+
+.name {
+    margin-top: 2rem;
+}
+
+.member-image {
+    height: 50%;
+    width: 30%;
+}

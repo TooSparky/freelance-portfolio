@@ -1,3 +1,4 @@
+import memberPicture from '../assets/WIN_20230531_12_47_29_Pro.jpg'
 import { Link } from 'react-router-dom'
 import './styles.css'
 
@@ -209,13 +210,15 @@ export default function Homepage() {
 
             {/* Team Section */}
             <section id="team-section">
-                <h2>Meet Our Team</h2>
-                <p></p>
-                <div>
-                    <img src="/" alt="image of team member" />
-                    <p><strong>Zach Barnes</strong></p>
-                    <p>Full-stack Developer</p>
-                    <p>
+                <div className='member-heading'>
+                    <h2>Employee of the Year</h2>
+                    <p>Our team is dedicated to exceptional results</p>
+                </div>
+                <div className='member'>
+                    <img className='member-image' src={memberPicture} alt="image of team member" />
+                    <p className='name'><strong>Zach Barnes</strong></p>
+                    <p className='position'>Full-stack Developer</p>
+                    <p className='description'>
                         Zach is a skilled web designer and developer who brings websites to life with his coding expertise.
                     </p>
                 </div>
