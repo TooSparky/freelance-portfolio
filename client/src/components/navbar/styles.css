@@ -6,18 +6,21 @@
 }
 
 body {
-    background-color: var(--background-color);
+    background: linear-gradient(#26c5ed, #825bdb);
+    background-attachment: fixed;
 }
 
 #nav {
     width: 100%;
     height: 8vh;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    mix-blend-mode: difference;
+    letter-spacing: 0.1rem;
 }
 
 #nav .logo a {
@@ -25,17 +28,18 @@ body {
     font-weight: bold;
 }
 
-#nav .logo:hover {
-    scale: 1.05;
-}
-
 #nav .links {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 1rem;
+}
+
+.links a:hover {
+    border-bottom: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
 }
 
 #nav .button {
@@ -56,11 +60,6 @@ body {
     font-size: 1.1rem;
 }
 
-.button:hover {
-    scale: 1.05;
-    color: var(--white);
-}
-
 li {
     list-style: none;
 }
@@ -71,14 +70,11 @@ a {
     color: var(--white);
 }
 
-a:hover {
-    color: var(--special-color);
-}
-
 .nav-container {
     position: relative;
     padding: 0 2rem;
-    background-color: var(--background-color);
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
 }
 
 .sticky {
@@ -88,3 +84,7 @@ a:hover {
     z-index: 99;
 }
 
+.fa-laptop-code {
+    color: #74c0fc;
+    padding-right: 0.5rem;
+}

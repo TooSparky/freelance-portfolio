@@ -25,6 +25,7 @@ function App() {
       scaleMobile: 1.00
     })
   }, [])
+  
   return (
     <ApolloProvider client={client}>
       <Navbar />

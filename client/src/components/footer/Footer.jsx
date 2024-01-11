@@ -1,27 +1,24 @@
 import './styles.css'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return(
         <footer id='footer'>
             <div className='footer-top-row'>
                 <div className='footer-column-1'>
-                    <p><strong>example text 1</strong></p>
+                    <p><strong>Support</strong></p>
+                        <Link to={'/contact'} className='link'>Contact</Link>
                 </div>
                 <div className='footer-column-2'>
-                    <p><strong>example text 2</strong></p>
-                </div>
-                <div className='footer-column-3'>
-                    <p><strong>example text 3</strong></p>
-                </div>
-                <div className='footer-column-4'>
                     <p><strong>Follow Us</strong></p>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
+                    <Link to={'https://www.instagram.com/quantumsiteswebsites/'} className='link'>Instagram</Link>
+                    <Link to={'https://www.facebook.com/profile.php?id=61555290821819'} className='link'>Facebook</Link>
+                    <Link to={'https://www.linkedin.com/in/quantum-websites-4a696b2a9/'} className='link'>LinkedIn</Link>
                 </div>
             </div>
             {/* <i className="fa-regular fa-copyright"></i> */}
             <div className='footer-bottom-row'>
-                <h3>2023 QuantumSites.</h3>
+                <h3>Copyright <i className="fa-regular fa-copyright"></i> 2024 QuantumSites | Made by QuantumSites</h3>
             </div>
         </footer>
     );

@@ -1,4 +1,4 @@
-import memberPicture from '../assets/WIN_20230531_12_47_29_Pro.jpg'
+import memberPicture from '../../assets/WIN_20230531_12_47_29_Pro.jpg'
 import { Link } from 'react-router-dom'
 import './styles.css'
 
@@ -150,10 +150,6 @@ export default function Homepage() {
                 </div>
             </section>
 
-            {/* <div id="CTA-section">
-
-            </div> */}
-
             {/* FAQ Section */}
             <section id="FAQ-section">
                 <h2 className='FAQs'>FAQs</h2>
@@ -208,20 +204,9 @@ export default function Homepage() {
                 </div>
             </section>
 
-            {/* Team Section */}
-            <section id="team-section">
-                <div className='member-heading'>
-                    <h2>Employee of the Year</h2>
-                    <p>Our team is dedicated to exceptional results</p>
-                </div>
-                <div className='member'>
-                    <img className='member-image' src={memberPicture} alt="image of team member" />
-                    <p className='name'><strong>Zach Barnes</strong></p>
-                    <p className='position'>Full-stack Developer</p>
-                    <p className='description'>
-                        Zach is a skilled web designer and developer who brings websites to life with his coding expertise.
-                    </p>
-                </div>
+            {/* About Section */}
+            <section id="about">
+
             </section>
         </main>
     )

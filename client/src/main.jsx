@@ -3,8 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App.jsx'
-import Mainpage from '../src/pages/Mainpage.jsx'
-import './index.css'
+import Mainpage from '../src/pages/mainpage/Mainpage.jsx'
 
 const router = createBrowserRouter([
   {

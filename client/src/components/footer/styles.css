@@ -1,12 +1,31 @@
+:root {
+    --white: #fff;
+    --darkgray: darkgray;
+}
+
 #footer {
-    color: #fff;
+    color: var(--white);
+    margin-top: 15rem;
 }
 
 .footer-top-row {
     display: flex;
     flex-direction: row;
     margin: 2rem 0;
-    margin-left: 20rem;
+    text-align: center;
+}
+
+.link {
+    font-size: 1.0rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    color: var(--darkgray);
+}
+
+.link:hover {
+    color: var(--white);
 }
 
 .footer-bottom-row {
@@ -16,7 +35,12 @@
     text-align: center;
 }
 
-.footer-column-1, .footer-column-2, .footer-column-3, .footer-column-4 {
-    width: 25%;
+.footer-bottom-row h3 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: var(--darkgray);
 }
 
+.footer-column-1, .footer-column-2 {
+    width: 50%;
+}
