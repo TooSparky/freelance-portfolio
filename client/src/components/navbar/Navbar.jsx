@@ -13,7 +13,7 @@ export default function Navbar() {
     });
 
     return(
-        <div className='nav-container sticky'>
+        <header className='nav-container sticky'>
             <nav id="nav">
                 <ul className='links'>
                     <li><a href="#about">About Us</a></li>
@@ -25,6 +25,6 @@ export default function Navbar() {
 
                 <a href='#' className='button'>Get Started</a>
             </nav>
-        </div>
+        </header>
     );
 }

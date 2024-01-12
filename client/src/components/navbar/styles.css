@@ -21,10 +21,11 @@ body {
     text-align: center;
     mix-blend-mode: difference;
     letter-spacing: 0.1rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 #nav .logo a {
-    font-size: 1.7rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -57,7 +58,7 @@ body {
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 li {
@@ -66,7 +67,7 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--white);
 }
 

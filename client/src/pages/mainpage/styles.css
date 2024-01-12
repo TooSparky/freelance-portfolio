@@ -14,6 +14,8 @@
     --purple: #8860D0;
     
     --black: #000;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Old Standard TT', serif; */
 }
 
 /* Header Section */
@@ -24,11 +26,13 @@
 }
 
 .column-1 h1 {
-    font-size: 3.5rem;
+    font-size: 7rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .column-2 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Old Standard TT', serif;
 }
 
 .column-1, .column-2{
@@ -66,7 +70,8 @@
 }
 
 .feature h2 {
-    font-size: 2.4rem;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .feature, .unordered-list {
@@ -75,10 +80,12 @@
 
 .column-1 {
     margin-left: 15rem;
+    font-family: 'Old Standard TT', serif;
 }
 
 .column-2 {
     margin-right: 15rem;
+    font-family: 'Old Standard TT', serif;
 }
 
 /* Feature List Section */
@@ -95,7 +102,8 @@
 }
 
 .item-1 h3, .item-2 h3, .item-3 h3 {
-    font-size: 2.4rem;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .item-1 p, .item-2 p, .item-3 p {
@@ -117,7 +125,8 @@
 }
 
 .benefits h2 {
-    font-size: 2.4rem;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .benefits {
@@ -133,11 +142,13 @@
 }
 
 .row-1, .row-2, .row-3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-family: 'Old Standard TT', serif;
 }
 
 .row-1 h3, .row-2 h3, .row-3 h3 {
-    font-size: 2.2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .row-1 {
@@ -165,11 +176,12 @@
 }
 
 .stats h2{
-    font-size: 2.5rem;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .stat-numbers p, .stat-numbers h2{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .spot-1 {
@@ -194,6 +206,7 @@
 .testimonial-info {
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
 }
 
 .profession {
@@ -201,15 +214,6 @@
     padding-left: 3rem;
     border-left: thin solid var(--white);
 }
-
-/* CTA Section */
-
-/* #CTA-section {
-    display: flex;
-    height: 80vh;
-    margin-top: 10rem;
-    color: var(--white);
-} */
 
 /* FAQ Section */
 
@@ -222,16 +226,19 @@
 }
 
 #FAQ-section h2 {
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 #FAQ-section p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-family: 'Old Standard TT', serif;
 }
 
 #FAQ-section h4 {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .FAQ {

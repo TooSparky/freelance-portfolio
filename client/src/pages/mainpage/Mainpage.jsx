@@ -1,4 +1,3 @@
-import memberPicture from '../../assets/WIN_20230531_12_47_29_Pro.jpg'
 import { Link } from 'react-router-dom'
 import './styles.css'
 
