@@ -1,6 +1,6 @@
 :root {
     --white: #fff;
-    --special-color: #2158ff;
+    --dark-grey: #242424;
 
     --primary-color: #3597DF;
     --secondary-color-light: #CCC;
@@ -40,13 +40,17 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
+    color: var(--black);
+}
+
+.header-h1 {
     color: var(--white);
 }
 
 .header-button {
     width: 5rem;
     background-color: var(--special-color);
-    color: var(--white);
+    color: var(--black);
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -61,12 +65,34 @@
     color: var(--white);
 }
 
+/* About Section */
+
+#about {
+    display: flex;
+    height: 30vh;
+    margin-top: 10rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    flex-direction: column;
+}
+
+.about-header {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.about-us {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+}
+
 /* Feature Section */
 #feature-section {
     display: flex;
     height: 60vh;
-    margin-top: 10rem;
-    color: var(--white);
+    margin-top: 30rem;
+    color: var(--black);
 }
 
 .feature h2 {
@@ -88,13 +114,23 @@
     font-family: 'Old Standard TT', serif;
 }
 
+.feature-img {
+    width: 80%;
+    height: 80%;
+}
+
+.fa-square-check {
+    padding-right: 1rem;
+}
+
 /* Feature List Section */
 
 #feature-list-section {
     display: flex;
-    height: 70vh;
-    margin-top: 10rem;
+    height: 95vh;
+    padding-top: 10rem;
     color: var(--white);
+    background-color: var(--black);
 }
 
 .item-1, .item-2 {
@@ -110,11 +146,16 @@
     font-size: 1.4rem;
 }
 
+.feature-1 {
+    color: var(--white);
+    display: flex;
+}
+
 /* Benefits Section */
 
 #benefits-section {
     display: flex;
-    height: 80vh;
+    height: 60vh;
     margin-top: 10rem;
     color: var(--white);
 }
@@ -133,12 +174,36 @@
     font-size: 1.4rem;
 }
 
+.benefits-button {
+    width: 8rem;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.benefits-button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: thin solid var(--black);
+}
+
+.fa-check {
+    padding-right: 1rem;
+}
+
 /* Services Section */
 
 #services-section {
     display: flex;
     height: 40vh;
-    color: var(--white);
+    color: var(--black);
 }
 
 .row-1, .row-2, .row-3 {
@@ -166,32 +231,57 @@
     margin-right: 15rem;
 }
 
+.services-button {
+    width: 8rem;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.services-button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: thin solid var(--black);
+}
+
 /* Stats Section */
 
 #stats-section {
     display: flex;
-    height: 40vh;
-    margin-top: 10rem;
+    height: 100vh;
+    padding-top: 10rem;
     color: var(--white);
+    background-color: var(--black);
 }
 
 .stats h2{
     font-size: 5rem;
     font-family: 'Bebas Neue', sans-serif;
+    color: var(--white);
 }
 
-.stat-numbers p, .stat-numbers h2{
-    font-size: 1.6rem;
-}
-
-.spot-1 {
-    margin-bottom: 1.5rem;
-}
-
-.spot-1, .spot-2 {
+.stats-img {
+    width: 100%;
+    margin-bottom: 2rem;
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.stats-img-div:hover {
+    border-color: var(--white);
+}
+
+.stats-img:hover {
+    border: thick solid var(--white);
 }
 
 /* Testimonial Section */
@@ -199,8 +289,12 @@
 #testimonial-section {
     display: flex;
     height: 50vh;
-    margin-top: 20rem;
-    color: var(--white);
+    margin-top: 15rem;
+}
+
+.reviews {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .testimonial-info {
@@ -212,7 +306,7 @@
 .profession {
     margin-left: 3rem;
     padding-left: 3rem;
-    border-left: thin solid var(--white);
+    border-left: thin solid var(--black);
 }
 
 /* FAQ Section */
@@ -220,18 +314,20 @@
 #FAQ-section {
     display: flex;
     flex-direction: column;
-    height: 130vh;
+    height: 200vh;
     color: var(--white);
-    margin: 0 15rem;
+    padding: 0 15rem;
+    padding-top: 10rem;
+    background-color: var(--dark-grey);
 }
 
 #FAQ-section h2 {
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: 'Bebas Neue', sans-serif;
 }
 
 #FAQ-section p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: 'Old Standard TT', serif;
 }
 

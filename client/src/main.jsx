@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App.jsx'
 import Mainpage from '../src/pages/mainpage/Mainpage.jsx'
+import Contact from '../src/pages/contact/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,12 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Mainpage />
-      }
+      },
+      {
+        path: '/contact',
+        element: <Contact />
+      },
+      
     ]
   }
 ]);

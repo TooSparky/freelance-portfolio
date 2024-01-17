@@ -1,7 +1,7 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import { Outlet } from 'react-router-dom'
 import { useEffect } from 'react'
-import waves from 'vanta/src/vanta.waves'
+import rings from 'vanta/src/vanta.rings'
 
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
@@ -14,7 +14,7 @@ const client = new ApolloClient({
 
 function App() {
   useEffect(() => {
-    waves({
+    rings({
       el: '#root',
       mouseControls: true,
       touchControls: true,

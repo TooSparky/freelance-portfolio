@@ -1,5 +1,6 @@
 import './styles.css';
 import $ from 'jquery'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -16,14 +17,15 @@ export default function Navbar() {
         <header className='nav-container sticky'>
             <nav id="nav">
                 <ul className='links'>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services-section">Services</a></li>
+                    <Link className='underline' to={'/'}>Home</Link>
+                    <li><a className='underline' href="#about">About Us</a></li>
+                    <li><a className='underline' href="#benefits-section">Services</a></li>
                 </ul>
                 <div className='logo'>
                     <a href='#header-section'><i className="fa-solid fa-laptop-code"></i>QuantumWebsites</a>
                 </div>
 
-                <a href='#' className='button'>Get Started</a>
+                <Link className='underline' to={'/contact'}>Contact</Link>
             </nav>
         </header>
     );

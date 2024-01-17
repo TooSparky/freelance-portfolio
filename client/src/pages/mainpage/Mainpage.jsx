@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './styles.css'
+import personalTrainingScreenshot from '../../assets/client-personal-training-screenshot.png'
 
 export default function Homepage() {
 
@@ -7,15 +8,24 @@ export default function Homepage() {
         <main id="main">
             {/* Header Section */}
             <section id="header-section">
-                <div className='column-1'>
+                <div className='column-1 header-h1'>
                     <h1>Innovative Website Customization</h1>
                 </div>
                 <div className='column-2'>
-                    <p>Our main focus is to create a long lasting business that stands the test of time. We put 
+                    {/* <p>Our main focus is to create a long lasting business that stands the test of time. We put 
                         your desires first or your money back.
-                    </p>
-                    <button className='header-button'>Explore</button>
+                    </p> */}
+                    {/* <button className='header-button'>Explore</button> */}
                 </div>
+            </section>
+
+            {/* About Section */}
+            <section id="about">
+                <h2 className='about-header'>Who We Are</h2>
+                <h3 className='about-us'>We are a company that loves to develop websites. We are a smaller business 
+                that originated in Kansas City. Our aim is to provide the easiest and most pain-free method of website 
+                development. All of our websites are coded from scratch which offers the best SEO (search engine optimization) 
+                and customization available.</h3>
             </section>
 
             {/* Feature Section */}
@@ -26,19 +36,19 @@ export default function Homepage() {
                         cutting-edge technology to create unforgettable online experiences.
                     </p>
                     <ul className='unordered-list'>
-                        <li>User focused designs that captivates your audience</li>
-                        <li>Innovative solutions tailored to your sepcific needs</li>
-                        <li>Transforming your online presence into a competitive advantage</li>
+                        <li><i className="fa-solid fa-square-check"></i>User focused designs that captivates your audience</li>
+                        <li><i className="fa-solid fa-square-check"></i>Innovative solutions tailored to your sepcific needs</li>
+                        <li><i className="fa-solid fa-square-check"></i>Transforming your online presence into a competitive advantage</li>
                     </ul>
                 </div>
                 <div className='column-2 image'>
-                    <img src="/" alt="image here" />
+                    <img className='feature-img' src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of software development code" />
                 </div>
             </section>
 
             {/* Feature List Section */}
             <section id='feature-list-section'>
-                <div className='column-1'>
+                <div className='column-1 feature-1'>
                     <div className='item-1'>
                         <h3>Custom Design</h3>
                         <p>We offer a range of services including a custom designed website exactly how you want it.</p>
@@ -54,8 +64,8 @@ export default function Homepage() {
                         </p>
                     </div>
                 </div>
-                <div className='column-2 image'>
-                    <img src="/" alt="image here" />
+                <div className='column-2 feature-2 image'>
+                    <img className='feature-img' src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of search engine optimization sketch" />
                 </div>
             </section>
 
@@ -69,17 +79,14 @@ export default function Homepage() {
                         and provide exceptional support. With our expertise, your online presence will reach new heights.
                     </p>
                     <ul>
-                        <li>Increase Traffic to Your Website</li>
-                        <li>Boost Converstion Rates</li>
-                        <li>Exceptional Support for Your Business</li>
+                        <li><i className="fa-solid fa-check"></i>Increase Traffic to Your Website</li>
+                        <li><i className="fa-solid fa-check"></i>Boost Converstion Rates</li>
+                        <li><i className="fa-solid fa-check"></i>Exceptional Support for Your Business</li>
                     </ul>
                     <div>
-                        <button>Learn More</button>
-                        <button>Sign Up</button>
+                        <Link target='_blank' to={'https://designpowers.com/blog/diy-website-vs-custom'} className='benefits-button'>Learn More</Link>
+                        <Link to={'/contact'} className='benefits-button'>Unlock Now</Link>
                     </div>
-                </div>
-                <div className='column-2 benefits-image'>
-                    <img src="/" alt="image here" />
                 </div>
             </section>
 
@@ -91,16 +98,14 @@ export default function Homepage() {
                         presence and attract customers.
                     </p>
                     <div>
-                        <button>Learn More</button>
-                        <button>Sign Up</button>
+                        <Link to={'/services'} className='services-button'>Learn More</Link>
                     </div>
                 </div>
                 <div className='row-2'>
                     <h3>Website Development</h3>
                     <p>Our team of experienced developers creates custom websites that are visually appealing and user-friendly.</p>
                     <div>
-                        <button>Learn More</button>
-                        <button>Sign Up</button>
+                        <Link to={'/services'} className='services-button'>Learn More</Link>
                     </div>
                 </div>
                 <div className='row-3'>
@@ -109,8 +114,7 @@ export default function Homepage() {
                         and enhance customer experience.
                     </p>
                     <div>
-                        <button>Learn More</button>
-                        <button>Sign Up</button>
+                        <Link to={'/services'} className='services-button'>Learn More</Link>
                     </div>
                 </div>
             </section>
@@ -120,26 +124,24 @@ export default function Homepage() {
                 <div className='column-1 stats'>
                     <h2>Experience the power of our designs in action</h2>
                 </div>
-                <div className='column-2 stat-numbers'>
-                    <p>We are a new company, with highly satisfied clients</p>
-                    <div className='spot-1'>
-                        <h2>50%</h2>
-                        <p>Increase in converstion rates for our clients' websites</p>
-                    </div>
-                    <div className='spot-2'>
-                        <h2>50%</h2>
-                        <p>Boost in website traffic for our clients' businesses</p>
-                    </div>
+                <div className='column-2 stats-img-div'>
+                    {/* NEED TO LINK WHEN WEBSITES ARE LIVE BELOW */}
+                    <Link target='_blank' to={''}>
+                        <img className='stats-img' src={personalTrainingScreenshot} alt="image of personal training website" />
+                    </Link>
+                    <Link target='_blank' to={''}>
+                        <img className='stats-img' src={personalTrainingScreenshot} alt="image of personal training website" />
+                    </Link>
                 </div>
             </section>
 
             {/* Testimonial Section */}
             <section id="testimonial-section">
-                <div className='column-1 video'>
-                    <Link>Link to video or a website statements</Link>
+                <div className='column-1'>
+                    <h2 className='reviews'>Reviews</h2>
                 </div>
                 <div className='column-2 testimonial'>
-                    <p>Our experience working with this company was exceptional. They delivered 
+                    <p>My experience working with this company was exceptional. They delivered 
                         a beautiful website that perfectly captured my brand.
                     </p>
                     <div className='testimonial-info'>
@@ -201,11 +203,6 @@ export default function Homepage() {
                         website for every season? We've got you covered. 
                     </p>
                 </div>
-            </section>
-
-            {/* About Section */}
-            <section id="about">
-
             </section>
         </main>
     )
