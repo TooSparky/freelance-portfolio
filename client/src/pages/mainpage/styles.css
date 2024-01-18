@@ -249,6 +249,14 @@
     color: var(--white);
 }
 
+#stats-span {
+    background: linear-gradient(to right, red, rgb(255, 108, 108), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 .stats-img {
     width: 100%;
     margin-bottom: 2rem;

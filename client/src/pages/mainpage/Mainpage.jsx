@@ -122,7 +122,7 @@ export default function Homepage() {
             {/* Stats Section */}
             <section id="stats-section">
                 <div className='column-1 stats'>
-                    <h2>Experience the power of our designs in action</h2>
+                    <h2>Experience the <span id='stats-span'>power</span> of our designs in action</h2>
                 </div>
                 <div className='column-2 stats-img-div'>
                     {/* NEED TO LINK WHEN WEBSITES ARE LIVE BELOW */}
