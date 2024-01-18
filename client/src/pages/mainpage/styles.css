@@ -47,24 +47,6 @@
     color: var(--white);
 }
 
-.header-button {
-    width: 5rem;
-    background-color: var(--special-color);
-    color: var(--black);
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.header-button:hover {
-    scale: 1.05;
-    color: var(--white);
-}
-
 /* About Section */
 
 #about {

@@ -1,4 +1,75 @@
 #contact-page {
-
+    height: 100vh;
+    margin: 0 15rem;
+    display: flex;
 }
 
+.form-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-h1 {
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 8rem;
+}
+
+.form-column-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-column-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.contact-form {
+    height: 3rem;
+    width: 35rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.25rem;
+}
+
+#message {
+    height: 5rem;
+}
+
+.form-button {
+    margin-top: 1rem;
+    width: 8rem;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.form-button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: thin solid var(--black);
+}
+
+.form-info {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

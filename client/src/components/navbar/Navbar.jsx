@@ -17,7 +17,7 @@ export default function Navbar() {
         <header className='nav-container sticky'>
             <nav id="nav">
                 <ul className='links'>
-                    <Link className='underline' to={'/'}>Home</Link>
+                    <Link className='underline' to={'.'}>Home</Link>
                     <li><a className='underline' href="#about">About Us</a></li>
                     <li><a className='underline' href="#benefits-section">Services</a></li>
                 </ul>

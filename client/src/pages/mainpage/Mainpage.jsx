@@ -85,13 +85,13 @@ export default function Homepage() {
                     </ul>
                     <div>
                         <Link target='_blank' to={'https://designpowers.com/blog/diy-website-vs-custom'} className='benefits-button'>Learn More</Link>
-                        <Link to={'/contact'} className='benefits-button'>Unlock Now</Link>
+                        <Link to={'/services'} className='benefits-button'>See Price Ranges</Link>
                     </div>
                 </div>
             </section>
 
             {/* Services Section */}
-            <section id="services-section">
+            {/* <section id="services-section">
                 <div className='row-1'>
                     <h3>Our Services</h3>
                     <p>We offer a wide range of website design services to help businesses establish an online 
@@ -117,7 +117,7 @@ export default function Homepage() {
                         <Link to={'/services'} className='services-button'>Learn More</Link>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Stats Section */}
             <section id="stats-section">
@@ -141,8 +141,8 @@ export default function Homepage() {
                     <h2 className='reviews'>Reviews</h2>
                 </div>
                 <div className='column-2 testimonial'>
-                    <p>My experience working with this company was exceptional. They delivered 
-                        a beautiful website that perfectly captured my brand.
+                    <p>"My experience working with this company was exceptional. They delivered 
+                        a beautiful website that perfectly captured my brand."
                     </p>
                     <div className='testimonial-info'>
                         <p className='name'>Brennon Warrick</p>
@@ -158,17 +158,16 @@ export default function Homepage() {
                 <div className='question-1'>
                     <h4>How long does it take to create a website from scratch?</h4>
                     <p>Since we pride ourselves on our flexibility, all websites may take 
-                        different amounts of time to create, however, simple websites only take us a couple days, 
-                        while much larger ones may take weeks. Whats guaranteed is that you will get the website you've 
-                        always dreamed of or your money back. 
+                        different amounts of time to create, however, simple websites only take us a few days, 
+                        while much larger ones may take weeks. Whats guaranteed is that you will get the website you're 
+                        looking for. 
                     </p>
                 </div>
                 <div className='question-2'>
                     <h4>How much will it cost to create a website?</h4>
-                    <p>All websites are different, so all prices will be as well. We believe is handing in a 
-                        beautiful finished product over the length it will take to create. For small simple websites 
-                        the cost would average anywhere from $100 to $3,000. While much larger more responsive designs 
-                        could range from $5,000 all the way to $12,000.
+                    <p>All websites are different, so all prices will be as well. For small simple websites 
+                        the cost would average anywhere from $500 to $3,000. While much larger more responsive designs 
+                        could range from $5,000 all the way to $15,000.
                     </p>
                 </div>
                 <div className='question-3'>
@@ -191,15 +190,13 @@ export default function Homepage() {
                     <p>Great question! So instead of using a website builder to drag and create your own website, we 
                         handle the whole process from beginning to end, so you don't have to stress. All we need from you 
                         are the details that you know you want to include. For example, color schemes, layout designs, 
-                        one large page or many pages. The best part is, if you have no idea where to start, we will create 
+                        one large page or many pages. The best part is, if you have no idea where to start, we can create 
                         the website for you and continue to shape it however you see fit. 
                     </p>
                 </div>
                 <div className='question-6'>
                     <h4>What if I want to make changes or update my website after I already paid and set up my own domain?</h4>
-                    <p>At QuantumSites, we will not charge to change tiny little things that will make you happy. 
-                        We will charge a fee for massive renovations and whole layout changes that will be different for 
-                        every business's websites, however we will do this as many times as you want. Want to update your 
+                    <p>We will charge a fee around $50 a month to update and make all desired website changes. Want to update your 
                         website for every season? We've got you covered. 
                     </p>
                 </div>

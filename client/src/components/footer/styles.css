@@ -31,7 +31,6 @@
     font-size: 1.0rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 0.5rem;
     color: var(--darkgray);
     flex-direction: row;
     padding: 0 0.5rem;
