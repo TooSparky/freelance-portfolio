@@ -1,5 +1,74 @@
 #services-page {
     display: flex;
+    flex-direction: column;
+    height: 140vh;
+    padding-top: 10rem;
+    color: #fff;
+    background-color: #242424;
+}
+
+.services-page-header {
+    padding-left: 15rem;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-container {
+    margin: 1rem 15rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem 1rem;
+    width: 47%;
+    padding: 8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card h2 {
+    font-size: 3rem;
+    z-index: 2;
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+.long-card-container {
+    margin: 1rem 16rem;
+    display: flex;
+}
+
+.long-card {
+    border: thin solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    width: 99%;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.long-card h2 {
+    font-size: 3rem;
+}
+
+.long-card:hover {
+    scale: 1.05;
+}
+
+
+
+
+/* #services-page {
+    display: flex;
     height: 120vh;
     color: #fff;
     flex-direction: column;
@@ -52,4 +121,8 @@
     width: 100%;
     height: 25vh;
     padding-left: 15rem;
+} */
+
+@media screen and (max-width: 1200px) {
+    
 }

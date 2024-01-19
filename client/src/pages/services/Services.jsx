@@ -3,6 +3,31 @@ import './styles.css'
 export default function Services() {
     return(
         <section id='services-page'>
+            <h1 className='services-page-header'>Services</h1>
+            <div className='card-container'>
+                <div className='card'>
+                    <h2>Bronze</h2>
+                </div>
+                <div className="card">
+                    <h2>Silver</h2>
+                </div>
+                <div className="card">
+                    <h2>Gold</h2>
+                </div>
+                <div className="card">
+                    <h2>Diamond</h2>
+                </div>
+            </div>
+            <div className='long-card-container'>
+                <div className='long-card'>
+                    <h2>Website Maintenance</h2>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+{/* <section id='services-page'>
             <h1 className='pricing-header'>Price Ranges</h1>
             <div className='low-price'>
                 <h2 className='heading'>Basic Website</h2>
@@ -45,6 +70,4 @@ export default function Services() {
                     <li className='points'><i className="fa-solid fa-angle-right"></i>We will continue to update your website as long as you give us access</li>
                 </ul>
             </div>
-        </section>
-    );
-}
+        </section> */}
