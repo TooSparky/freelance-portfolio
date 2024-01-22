@@ -352,15 +352,20 @@
 
 @media screen and (max-width: 1200px) {
     #feature-section {
-        height: 70vh;
+        height: 80vh;
     }
 
     .feature-img {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 80%;
+        padding-left: 2rem;
     }
 
     #FAQ-section {
         height: 210vh;
+    }
+
+    #stats-section {
+        height: 70vh;
     }
 }

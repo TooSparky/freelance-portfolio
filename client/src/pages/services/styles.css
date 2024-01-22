@@ -69,7 +69,7 @@
     scale: 1.05;
 }
 
-.image {
+.card-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -125,5 +125,17 @@
 }
 
 @media screen and (max-width: 1200px) {
-    
+    #services-page {
+        height: 100vh;
+    }
+
+    .card {
+        height: 200px;
+        width: 325px;
+    }
+
+    .long-card {
+        height: 175px;
+        width: 680px;
+    }
 }
