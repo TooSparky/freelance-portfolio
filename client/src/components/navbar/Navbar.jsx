@@ -17,9 +17,9 @@ export default function Navbar() {
         <header className='nav-container sticky'>
             <nav id="nav">
                 <ul className='links'>
-                    <Link className='underline' to={'.'}>Home</Link>
+                    <li><Link className='underline' to={'.'}>Home</Link></li>
                     <li><a className='underline' href="#about">About Us</a></li>
-                    <li><a className='underline' href="#benefits-section">Services</a></li>
+                    <li><Link className='underline' to={'/services'}>Services</Link></li>
                 </ul>
                 <div className='logo'>
                     <a href='#header-section'><i className="fa-solid fa-laptop-code"></i>QuantumWebsites</a>

@@ -28,6 +28,7 @@
 .column-1 h1 {
     font-size: 7rem;
     font-family: 'Bebas Neue', sans-serif;
+    z-index: 2;
 }
 
 .column-2 p {

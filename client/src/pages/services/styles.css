@@ -11,6 +11,7 @@
     padding-left: 15rem;
     font-size: 5rem;
     font-family: 'Bebas Neue', sans-serif;
+    z-index: 2;
 }
 
 .card-container {
@@ -22,16 +23,18 @@
 
 .card {
     margin: 1rem 1rem;
-    width: 47%;
-    padding: 8rem 0;
+    height: 300px;
+    width: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
     overflow: hidden;
 }
 
 .card h2 {
     font-size: 3rem;
+    z-index: 2;
     z-index: 2;
 }
 
@@ -49,79 +52,77 @@
     background-color: #fff;
     border-radius: 5px;
     color: #000;
-    width: 99%;
-    padding: 4rem 0;
+    height: 250px;
+    width: 1330px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .long-card h2 {
     font-size: 3rem;
+    z-index: 2;
 }
 
 .long-card:hover {
     scale: 1.05;
 }
 
-
-
-
-/* #services-page {
-    display: flex;
-    height: 120vh;
-    color: #fff;
-    flex-direction: column;
-    padding-top: 10rem;
-    backdrop-filter: blur(10px);
-}
-
-.heading {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 3rem;
-}
-
-.pricing-header {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    text-align: center;
-    font-size: 6rem;
-    font-family: 'Bebas Neue', sans-serif;
-    padding-bottom: 2rem;
-    margin-left: 15rem;
-}
-
-.low-price, .medium-price, .high-price {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3rem;
-    margin-left: 15rem;
-}
-
-.low-price li {
-    padding-left: 7rem;
-}
-
-.high-price li {
-    padding-left: 3.8rem;
-}
-
-.points {
-    padding-left: 3rem; 
-    font-size: 1.1rem;
-}
-
-.fa-angle-right {
-    padding-right: 0.5rem;
-}
-
-.hosting {
-    background-color: #242424;
+.image {
+    height: 100%;
     width: 100%;
-    height: 25vh;
-    padding-left: 15rem;
-} */
+    object-fit: cover;
+    filter: blur(8px);
+}
+
+.image:hover {
+    filter: blur(0px);
+}
+
+.card-h2 {
+    position: absolute;
+}
+
+#web-maintenance {
+    background: linear-gradient(to right, rgb(104, 104, 104), rgb(236, 236, 236), rgb(104, 104, 104));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#bronze {
+    background: linear-gradient(to right, rgb(255, 165, 86), rgb(255, 234, 221), rgb(255, 165, 86));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#silver {
+    background: linear-gradient(to right, rgb(110, 103, 103), rgb(193, 186, 186), rgb(110, 103, 103));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#gold {
+    background: linear-gradient(to right, rgb(212, 197, 25), rgb(239, 234, 170), rgb(212, 197, 25));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#diamond {
+    background: linear-gradient(to right, rgb(110, 103, 103), rgb(193, 186, 186), rgb(110, 103, 103));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
 
 @media screen and (max-width: 1200px) {
     

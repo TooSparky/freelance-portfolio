@@ -6,21 +6,26 @@ export default function Services() {
             <h1 className='services-page-header'>Services</h1>
             <div className='card-container'>
                 <div className='card'>
-                    <h2>Bronze</h2>
+                    <h2 id='bronze' className='card-h2'>Bronze</h2>
+                    <img className='image' src="https://cdn.pixabay.com/photo/2016/11/09/18/54/refracted-1812461_640.jpg" alt="image of bronze" />
                 </div>
                 <div className="card">
-                    <h2>Silver</h2>
+                    <h2 id='silver' className='card-h2'>Silver</h2>
+                    <img className='image' src="https://cdn.pixabay.com/photo/2015/09/24/12/52/silver-955496_640.jpg" alt="image of silver" />
                 </div>
                 <div className="card">
-                    <h2>Gold</h2>
+                    <h2 id='gold' className='card-h2'>Gold</h2>
+                    <img className='image' src="https://cdn.pixabay.com/photo/2016/09/05/18/54/texture-1647380_1280.jpg" alt="image of gold" />
                 </div>
                 <div className="card">
-                    <h2>Diamond</h2>
+                    <h2 id='diamond' className='card-h2'>Diamond</h2>
+                    <img className='image' src="https://cdn.pixabay.com/photo/2016/02/14/09/45/diamond-1199183_1280.jpg" alt="image of diamonds" />
                 </div>
             </div>
             <div className='long-card-container'>
                 <div className='long-card'>
-                    <h2>Website Maintenance</h2>
+                    <h2 id='web-maintenance' className='card-h2'>Website Maintenance</h2>
+                    <img className='image' src="https://cdn.pixabay.com/photo/2021/10/11/13/12/website-6700615_1280.png" alt="image of maintenance on a computer" />
                 </div>
             </div>
         </section>
