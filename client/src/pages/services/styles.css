@@ -25,17 +25,18 @@
     margin: 1rem 1rem;
     height: 300px;
     width: 650px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 2;
     overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1000ms;
 }
 
 .card h2 {
     font-size: 3rem;
     z-index: 2;
-    z-index: 2;
+    position: absolute;
 }
 
 .card:hover {
@@ -54,13 +55,14 @@
     color: #000;
     height: 250px;
     width: 1330px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 2;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
 }
 
 .long-card h2 {
+    position: absolute;
     font-size: 3rem;
     z-index: 2;
 }
@@ -76,12 +78,25 @@
     filter: blur(8px);
 }
 
-.image:hover {
+.card-image:hover {
     filter: blur(0px);
 }
 
-.card-h2 {
+.card-face-front, .card-face-back {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.card-face-back {
+    background-color: orange;
+    transform: rotateY(180deg);
 }
 
 #web-maintenance {
@@ -109,7 +124,7 @@
 }
 
 #gold {
-    background: linear-gradient(to right, rgb(212, 197, 25), rgb(239, 234, 170), rgb(212, 197, 25));
+    background: linear-gradient(to right, rgb(136, 125, 0), rgb(160, 156, 77), rgb(136, 125, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
@@ -117,7 +132,7 @@
 }
 
 #diamond {
-    background: linear-gradient(to right, rgb(110, 103, 103), rgb(193, 186, 186), rgb(110, 103, 103));
+    background: linear-gradient(to right, rgb(66, 163, 199), rgb(175, 223, 245), rgb(66, 163, 199));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;

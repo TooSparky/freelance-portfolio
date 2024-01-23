@@ -1,31 +1,73 @@
 import './styles.css'
+import { useState } from 'react'
+import { motion } from 'framer-motion'
+
 
 export default function Services() {
+
+    const [isFlipped, setIsFlipped] = useState(false)
+    const [isAnimating, setIsAnimating] = useState(false)
+
+    function handleFlip () {
+        if (!isAnimating) {
+            setIsFlipped(!isFlipped)
+            setIsAnimating(true)
+        }
+    }
+
     return(
         <section id='services-page'>
             <h1 className='services-page-header'>Services</h1>
-            <div className='card-container'>
+            <div className='card-container flip-card' onClick={handleFlip}>
+                <motion.div className='flip-card-inner' initial={false} animate={{rotateY: isFlipped ? 180 : 360}} 
+                transition={{duration: 1, animationDirection: 'normal'}} onAnimationComplete={() => setIsAnimating(false)}>
                 <div className='card'>
-                    <h2 id='bronze' className='card-h2'>Bronze</h2>
-                    <img className='card-image' src="https://cdn.pixabay.com/photo/2016/11/09/18/54/refracted-1812461_640.jpg" alt="image of bronze" />
+                    <div className='card-face-front'>
+                        <h2 id='bronze' className='card-h2'>Bronze Package</h2>
+                        <img className='card-image' src="https://cdn.pixabay.com/photo/2016/11/09/18/54/refracted-1812461_640.jpg" alt="image of bronze" />
+                    </div>
+                    <div className='card-face-back'>
+                        <p>all the juicy details</p>
+                    </div>
+                </div>
+                </motion.div>
+                <div className="card">
+                    <div className='card-face-front'>
+                        <h2 id='silver' className='card-h2'>Silver Package</h2>
+                        <img className='card-image' src="https://cdn.pixabay.com/photo/2015/09/24/12/52/silver-955496_640.jpg" alt="image of silver" />
+                    </div>
+                    <div className='card-face-back'>
+                        <p>all the juicy details</p>
+                    </div>
                 </div>
                 <div className="card">
-                    <h2 id='silver' className='card-h2'>Silver</h2>
-                    <img className='card-image' src="https://cdn.pixabay.com/photo/2015/09/24/12/52/silver-955496_640.jpg" alt="image of silver" />
+                    <div className='card-face-front'>
+                        <h2 id='gold' className='card-h2'>Gold Package</h2>
+                        <img className='card-image' src="https://cdn.pixabay.com/photo/2016/09/05/18/54/texture-1647380_1280.jpg" alt="image of gold" />
+                    </div>
+                    <div className='card-face-back'>
+                        <p>all the juicy details</p>
+                    </div>
                 </div>
                 <div className="card">
-                    <h2 id='gold' className='card-h2'>Gold</h2>
-                    <img className='card-image' src="https://cdn.pixabay.com/photo/2016/09/05/18/54/texture-1647380_1280.jpg" alt="image of gold" />
-                </div>
-                <div className="card">
-                    <h2 id='diamond' className='card-h2'>Diamond</h2>
-                    <img className='card-image' src="https://cdn.pixabay.com/photo/2016/02/14/09/45/diamond-1199183_1280.jpg" alt="image of diamonds" />
+                    <div className='card-face-front'>
+                        <h2 id='diamond' className='card-h2'>Diamond Package</h2>
+                        <img className='card-image' src="https://cdn.pixabay.com/photo/2016/02/14/09/45/diamond-1199183_1280.jpg" alt="image of diamonds" />
+                    </div>
+                    <div className='card-face-back'>
+                        <p>all the juicy details</p>
+                    </div>
                 </div>
             </div>
             <div className='long-card-container'>
                 <div className='long-card'>
-                    <h2 id='web-maintenance' className='card-h2'>Website Maintenance</h2>
-                    <img className='card-image' src="https://cdn.pixabay.com/photo/2021/10/11/13/12/website-6700615_1280.png" alt="image of maintenance on a computer" />
+                    <div className='card-face-front'>
+                        <h2 id='web-maintenance' className='card-h2'>Website Maintenance</h2>
+                        <img className='card-image' src="https://cdn.pixabay.com/photo/2021/10/11/13/12/website-6700615_1280.png" alt="image of maintenance on a computer" />
+                    </div>
+                    <div className='card-face-back'>
+                        <p>all the juicy details</p>
+                    </div>
                 </div>
             </div>
         </section>
