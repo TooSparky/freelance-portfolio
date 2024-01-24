@@ -22,10 +22,10 @@ export default function Navbar() {
                     <li><Link className='underline' to={'/services'}>Services</Link></li>
                 </ul>
                 <div className='logo'>
-                    <a href='#header-section'><i className="fa-solid fa-laptop-code"></i>QuantumWebsites</a>
+                    <a href='#header-section'><i className="fa-solid fa-laptop-code"></i>QuantumSites</a>
                 </div>
 
-                <Link className='underline' to={'/contact'}>Contact</Link>
+                <Link id='contact-nav' className='underline' to={'/contact'}>Contact</Link>
             </nav>
         </header>
     );

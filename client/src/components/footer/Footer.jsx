@@ -5,7 +5,7 @@ export default function Footer() {
     return(
         <footer id='footer'>
             <div>
-                <h2 className='footer-heading'><i className="fa-solid fa-laptop-code"></i>QuantumWebsites</h2>
+                <h2 className='footer-heading'><i className="fa-solid fa-laptop-code"></i>QuantumSites</h2>
             </div>
             <div className='footer-top-row'>
                 <div className='footer-column-1'>

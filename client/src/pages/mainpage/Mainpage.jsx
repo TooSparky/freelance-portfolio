@@ -6,7 +6,7 @@ export default function Homepage() {
 
     return (
         <main id="main">
-            {/* Header Section */}
+            {/* Hero Section */}
             <section id="header-section">
                 <div className='column-1 header-h1'>
                     <h1>Innovative Website Customization</h1>
@@ -17,7 +17,7 @@ export default function Homepage() {
             {/* About Section */}
             <section id="about">
                 <h2 className='about-header'>Who We Are</h2>
-                <h3 className='about-us'>We are a company that loves to develop websites. We are a smaller business 
+                <h3 className='about-us'>Our company loves to develop websites. We are a smaller business 
                 that originated in Kansas City. Our aim is to provide the easiest and most pain-free method of website 
                 development. All of our websites are coded from scratch which offers the best SEO (search engine optimization) 
                 and customization available.</h3>
@@ -44,7 +44,7 @@ export default function Homepage() {
             {/* Feature List Section */}
             <section id='feature-list-section'>
                 <div className='column-2 feature-2 image'>
-                    <img className='feature-img' src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of search engine optimization sketch" />
+                    <img className='feature-list-img' src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of search engine optimization sketch" />
                 </div>
                 <div className='column-1 feature-1'>
                     <div className='item-1'>
@@ -129,11 +129,11 @@ export default function Homepage() {
 
             {/* Testimonial Section */}
             <section id="testimonial-section">
-                <div className='column-1'>
+                <div className='column-1 review-div'>
                     <h2 className='reviews'>Reviews</h2>
                 </div>
                 <div className='column-2 testimonial'>
-                    <p>"My experience working with this company was exceptional. They delivered 
+                    <p className='comment'>"My experience working with this company was exceptional. They delivered 
                         a beautiful website that perfectly captured my brand."
                     </p>
                     <div className='testimonial-info'>
