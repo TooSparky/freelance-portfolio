@@ -5,6 +5,7 @@
     padding-top: 10rem;
     color: #fff;
     background-color: #242424;
+    z-index: 2;
 }
 
 .services-page-header {
@@ -12,6 +13,13 @@
     font-size: 5rem;
     font-family: 'Bebas Neue', sans-serif;
     z-index: 2;
+}
+
+.services-page-info {
+    z-index: 2;
+    padding-left: 15rem;
+    font-size: 1.5rem;
+    font-family: 'Old Standard TT', serif;
 }
 
 .card-container {

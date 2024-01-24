@@ -2,7 +2,6 @@ import './styles.css'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 
-
 export default function Services() {
 
     const [isFlipped, setIsFlipped] = useState(false)
@@ -18,6 +17,7 @@ export default function Services() {
     return(
         <section id='services-page'>
             <h1 className='services-page-header'>Services</h1>
+            <p className='services-page-info'>*All prices are subject to change because no website is the same*</p>
             <div className='card-container flip-card' onClick={handleFlip}>
                 <motion.div className='flip-card-inner' initial={false} animate={{rotateY: isFlipped ? 180 : 360}} 
                 transition={{duration: 1, animationDirection: 'normal'}} onAnimationComplete={() => setIsAnimating(false)}>

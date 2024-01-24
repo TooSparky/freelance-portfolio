@@ -11,12 +11,7 @@ export default function Homepage() {
                 <div className='column-1 header-h1'>
                     <h1>Innovative Website Customization</h1>
                 </div>
-                <div className='column-2'>
-                    {/* <p>Our main focus is to create a long lasting business that stands the test of time. We put 
-                        your desires first or your money back.
-                    </p> */}
-                    {/* <button className='header-button'>Explore</button> */}
-                </div>
+                <div className='column-2'></div>
             </section>
 
             {/* About Section */}
@@ -41,13 +36,16 @@ export default function Homepage() {
                         <li><i className="fa-solid fa-square-check"></i>Transforming your online presence into a competitive advantage</li>
                     </ul>
                 </div>
-                <div className='column-2 image'>
+                <div className='column-2 feature-image-div'>
                     <img className='feature-img' src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of software development code" />
                 </div>
             </section>
 
             {/* Feature List Section */}
             <section id='feature-list-section'>
+                <div className='column-2 feature-2 image'>
+                    <img className='feature-img' src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of search engine optimization sketch" />
+                </div>
                 <div className='column-1 feature-1'>
                     <div className='item-1'>
                         <h3>Custom Design</h3>
@@ -55,7 +53,7 @@ export default function Homepage() {
                     </div>
                     <div className='item-2'>
                         <h3>Responsive Layouts</h3>
-                        <p>Our services include a responsive layout to make your website stand out.</p>
+                        <p>Our services include a responsive layout to make your website stand out from all the rest.</p>
                     </div>
                     <div className='item-3'>
                         <h3>SEO Optimization</h3>
@@ -63,9 +61,6 @@ export default function Homepage() {
                             You will stand out from the competition and attack your target audience.
                         </p>
                     </div>
-                </div>
-                <div className='column-2 feature-2 image'>
-                    <img className='feature-img' src="https://images.pexels.com/photos/942331/pexels-photo-942331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of search engine optimization sketch" />
                 </div>
             </section>
 
@@ -126,9 +121,6 @@ export default function Homepage() {
                 </div>
                 <div className='column-2 stats-img-div'>
                     {/* NEED TO LINK WHEN WEBSITES ARE LIVE BELOW */}
-                    <Link target='_blank' to={''}>
-                        <img className='stats-img' src={personalTrainingScreenshot} alt="image of personal training website" />
-                    </Link>
                     <Link target='_blank' to={''}>
                         <img className='stats-img' src={personalTrainingScreenshot} alt="image of personal training website" />
                     </Link>

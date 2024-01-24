@@ -33,9 +33,8 @@ export default function Contact() {
         <section id='contact-page'>
                 <div className='form-column-1 form-div'>
                     <h1 className='form-h1'>Contact</h1>
-                    <p className='form-info'>Email: quantumsites4sale@gmail.com<br></br>
-                        Phone: 660-287-2151
-                    </p>
+                    <p className='form-info'>We will contact you back as soon as possible!</p>
+                    <p className='form-info'>Email: quantumsites4sale@gmail.com</p>
                 </div>
             <form className='form' action="/" onSubmit={submitHandler}>
                 <div className='form-column-2 form-div'>

@@ -15,9 +15,9 @@ export default function Footer() {
                 <div className='footer-column-2'>
                     <p><strong>Follow Us</strong></p>
                     <div className='footer-socials'>
-                        <Link to={'https://www.instagram.com/quantumsiteswebsites/'} className='link'><i class="fa-brands fa-instagram"></i></Link>
-                        <Link to={'https://www.facebook.com/profile.php?id=61555290821819'} className='link'><i class="fa-brands fa-facebook"></i></Link>
-                        <Link to={'https://www.linkedin.com/in/quantum-websites-4a696b2a9/'} className='link'><i class="fa-brands fa-linkedin"></i></Link>
+                        <Link target='_blank' to={'https://www.instagram.com/quantumsiteswebsites/'} className='link'><i class="fa-brands fa-instagram"></i></Link>
+                        <Link target='_blank' to={'https://www.facebook.com/profile.php?id=61555290821819'} className='link'><i class="fa-brands fa-facebook"></i></Link>
+                        <Link target='_blank' to={'https://www.linkedin.com/in/quantum-websites-4a696b2a9/'} className='link'><i class="fa-brands fa-linkedin"></i></Link>
                     </div>
                 </div>
             </div>
