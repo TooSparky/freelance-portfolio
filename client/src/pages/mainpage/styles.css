@@ -205,59 +205,6 @@
     padding-right: 1rem;
 }
 
-/* Services Section */
-
-/* #services-section {
-    display: flex;
-    height: 40vh;
-    color: var(--black);
-}
-
-.row-1, .row-2, .row-3 {
-    font-size: 1.4rem;
-    font-family: 'Old Standard TT', serif;
-}
-
-.row-1 h3, .row-2 h3, .row-3 h3 {
-    font-size: 3rem;
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-.row-1 {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin-left: 15rem;
-}
-
-.row-2 {
-    margin: 0 10rem;
-}
-
-.row-3 {
-    margin-right: 15rem;
-}
-
-.services-button {
-    width: 8rem;
-    background-color: var(--black);
-    color: var(--white);
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-    font-size: 0.8rem;
-    font-weight: bold;
-    cursor: pointer;
-    margin-right: 2rem;
-    font-size: 1.2rem;
-}
-
-.services-button:hover {
-    background-color: var(--white);
-    color: var(--black);
-    border: thin solid var(--black);
-} */
-
 /* Stats Section */
 
 #stats-section {
@@ -525,7 +472,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    #header-section {
+        width: 768px;
+    }
 }
 
 @media screen and (max-width: 480px) {

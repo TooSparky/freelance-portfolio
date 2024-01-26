@@ -19,7 +19,7 @@ export default function Homepage() {
                 <h2 className='about-header'>Who We Are</h2>
                 <h3 className='about-us'>Our company loves to develop websites. We are a smaller business 
                 that originated in Kansas City. Our aim is to provide the easiest and most pain-free method of website 
-                development. All of our websites are coded from scratch which offers the best SEO (search engine optimization) 
+                development. All of our websites are guaranteed to have the best SEO (search engine optimization) 
                 and customization available.</h3>
             </section>
 
@@ -32,7 +32,7 @@ export default function Homepage() {
                     </p>
                     <ul className='unordered-list'>
                         <li><i className="fa-solid fa-square-check"></i>User focused designs that captivates your audience</li>
-                        <li><i className="fa-solid fa-square-check"></i>Innovative solutions tailored to your sepcific needs</li>
+                        <li><i className="fa-solid fa-square-check"></i>Innovative solutions tailored to your specific needs</li>
                         <li><i className="fa-solid fa-square-check"></i>Transforming your online presence into a competitive advantage</li>
                     </ul>
                 </div>
@@ -84,36 +84,7 @@ export default function Homepage() {
                     </div>
                 </div>
             </section>
-
-            {/* Services Section */}
-            {/* <section id="services-section">
-                <div className='row-1'>
-                    <h3>Our Services</h3>
-                    <p>We offer a wide range of website design services to help businesses establish an online 
-                        presence and attract customers.
-                    </p>
-                    <div>
-                        <Link to={'/services'} className='services-button'>Learn More</Link>
-                    </div>
-                </div>
-                <div className='row-2'>
-                    <h3>Website Development</h3>
-                    <p>Our team of experienced developers creates custom websites that are visually appealing and user-friendly.</p>
-                    <div>
-                        <Link to={'/services'} className='services-button'>Learn More</Link>
-                    </div>
-                </div>
-                <div className='row-3'>
-                    <h3>E-commerce Solutions</h3>
-                    <p>We specialize in building secure and scalable e-commerce platforms that drive sales 
-                        and enhance customer experience.
-                    </p>
-                    <div>
-                        <Link to={'/services'} className='services-button'>Learn More</Link>
-                    </div>
-                </div>
-            </section> */}
-
+            
             {/* Stats Section */}
             <section id="stats-section">
                 <div className='column-1 stats'>

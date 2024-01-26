@@ -46,7 +46,6 @@ a {
 }
 
 .nav-container {
-    padding: 0 2rem;
     -webkit-transition: background 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out;
 }
@@ -75,6 +74,12 @@ a {
     display: none;
 }
 
+@media screen and (max-width: 1200px) {
+    #contact-nav {
+        margin-right: 2rem;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     #contact-nav {
         margin-right: 2rem;
@@ -88,11 +93,11 @@ a {
 @media screen and (max-width: 768px) {
     #mobile-nav {
         display: flex;
-        margin-top: 1rem;
+        padding: 1rem 3rem;
         justify-content: space-between;
         font-family: 'Bebas Neue', sans-serif;
         background-color: #242424;
-        width: 100%;
+        width: 768px;
     }
 
     #nav {
@@ -129,14 +134,14 @@ a {
         top: 90px;
         left: -100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.3s ease;
     }
 
     .nav-menu.active {
         left: 0;
         opacity: 1;
         z-index: 1;
-        transition: all 0.6s ease;
+        transition: all 0.3s ease;
         background-color: #242424;
     }
 
@@ -157,5 +162,9 @@ a {
 
     .nav-item {
         width: 100%;
+    }
+
+    .nav-container {
+        width: 768px;
     }
 }

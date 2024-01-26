@@ -6,7 +6,6 @@ import rings from 'vanta/src/vanta.rings'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import ScrollToTop from './components/scrollToTop/ScrollToTop'
-import Sidebar from './components/sidebar/Sidebar'
 
 import './App.css'
 
@@ -31,7 +30,6 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <ScrollToTop />
-      <Sidebar />
       <Navbar />
       <Outlet />
       <Footer />
