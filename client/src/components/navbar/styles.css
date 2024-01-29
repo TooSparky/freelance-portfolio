@@ -74,6 +74,12 @@ a {
     display: none;
 }
 
+@media screen and (max-width: 1660px) {
+    #contact-nav {
+        margin-right: 2rem;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #contact-nav {
         margin-right: 2rem;
@@ -84,10 +90,22 @@ a {
     #contact-nav {
         margin-right: 2rem;
     }
-}
 
-@media screen and (max-width: 960px) {
-    
+    #nav {
+        margin: 0;
+    }
+
+    #nav .links {
+        gap: 2rem;
+    }
+
+    #nav .logo a {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {

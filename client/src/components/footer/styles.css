@@ -76,3 +76,31 @@
         margin: 0 10rem;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .footer-heading {
+        margin-left: 5rem;
+    }
+
+    .footer-bottom-row {
+        margin: 0 5rem;
+    }
+
+    .footer-top-row {
+        margin: 2rem 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-heading {
+        font-size: 2.5rem;
+    }
+
+    .footer-bottom-row {
+        justify-content: center;
+    }
+
+    .footer-bottom-row h3 {
+        font-size: 0.9rem;
+    }
+}

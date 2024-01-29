@@ -4,8 +4,8 @@ export default function Services() {
     return(
         <section id='services-page'>
             <h1 className='services-page-header'>Services</h1>
-            <p className='services-page-info'>*All prices are estimates because no website is the same* <br></br>
-            Prices are determined by the amount of pages plus all additional add-ons, such as mobile 
+            <p className='services-page-info'>*All prices are estimates because no website is the same*</p>
+            <p className='services-page-more-info'>Prices are determined by the amount of pages plus all additional add-ons, such as mobile 
             responsiveness, online payment methods, logo maker, custom designs, etc.</p>
             <div className='card-container'>
                 <div className='flip-card'>
