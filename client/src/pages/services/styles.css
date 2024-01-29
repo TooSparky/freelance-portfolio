@@ -340,6 +340,7 @@
 @media screen and (max-width: 768px) {
     #services-page {
         height: 160vh;
+        height: 160svh;
     }
 
     .services-page-header {

@@ -104,3 +104,16 @@
         font-size: 0.9rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .footer-heading {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .footer-top-row {
+        margin: 2rem 2rem;
+    }
+}
