@@ -52,7 +52,7 @@
 
 #about {
     display: flex;
-    height: 30vh;
+    height: 35vh;
     margin-top: 5rem;
     margin-right: 15rem;
     margin-left: 15rem;
@@ -265,10 +265,13 @@
     margin-top: 2rem;
 }
 
+.testimonial-name {
+    padding-right: 3rem;
+    border-right: thin solid var(--black);
+}
+
 .profession {
-    margin-left: 3rem;
     padding-left: 3rem;
-    border-left: thin solid var(--black);
 }
 
 /* FAQ Section */
@@ -309,10 +312,161 @@
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 1660px) {
+    #about {
+        height: 45vh;
+    }
+
+    #feature-section {
+        height: 70vh;
+    }
+
+    #feature-list-section {
+        height: 100vh;
+    }
+
+    #benefits-section {
+        height: 60vh;
+    }
+
+    .stats h2 {
+        font-size: 5.3rem;
+    }
+
+    /* Testimonial Section */
+
+    #testimonial-section {
+        height: 45vh;
+    }
+
+    .testimonial-info {
+        display: flex;
+    }
+
+    .testimonial-name {
+        margin: 0;
+        text-align: center;
+    }
+
+    .comment {
+        text-align: center;
+    }
+
+    .profession {
+        margin: 0;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    /* FAQ Section */
+
+    #FAQ-section {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    /* About Section */
+
+    .about-header {
+        font-size: 5rem;
+    }
+    
+    .about-us {
+        font-size: 2.5rem;
+    }
+
+    /* Feature Section */
+
+    #feature-section {
+        height: 75vh;
+    }
+
+    .feature h2 {
+        font-size: 3.5rem;
+    }
+    
+    .feature, .unordered-list {
+        font-size: 1.3rem;
+    }
+
+    /* Feature List Section */
+
+    #feature-list-section {
+        height: 90vh;
+    }
+
+    .item-1 h3, .item-2 h3, .item-3 h3 {
+        font-size: 3.5rem;
+    }
+    
+    .item-1 p, .item-2 p, .item-3 p {
+        font-size: 1.3rem;
+    }
+
+    /* Benefits Section */
+
+    #benefits-section {
+        height: 60vh;
+    }
+
+    .benefits h2 {
+        font-size: 3.5rem;
+    }
+    
+    .benefits {
+        font-size: 1.3rem;
+    }
+
+    /* Stats Section */
+
+    #stats-section {
+        height: 55vh;
+    }
+
+    .stats h2 {
+        font-size: 3.5rem;
+    }
+
+    /* Testimonial Section */
+
+    #testimonial-section {
+        height: 50vh;
+    }
+    
+    .reviews {
+        font-size: 4rem;
+    }
+
+    .testimonial {
+        margin-right: 10rem;
+    }
+
+    /* FAQ Section */
+
+    #FAQ-section {
+        height: 200vh;
+    }
+
+    #FAQ-section h2 {
+        font-size: 4rem;
+    }
+    
+    #FAQ-section p {
+        font-size: 1.3rem;
+    }
+    
+    #FAQ-section h4 {
+        font-size: 2.2rem;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     /* About Section */
     #about {
-        height: 35vh;
+        height: 40vh;
+        margin: 5rem 10rem;
     }
 
     .about-us {
@@ -336,7 +490,7 @@
 
     /* Feature-list Section */
     #feature-list-section {
-        height: 80vh;
+        height: 90vh;
     }
 
     .feature-1 {
@@ -354,8 +508,11 @@
         padding-top: 0rem;
     }
 
-    .stats h2 {
-        padding-top: 5rem;
+    .stats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .stats-img-div {
@@ -371,7 +528,7 @@
 
     /* Testimonial Section */
     #testimonial-section {
-        height: 45vh;
+        height: 50vh;
         margin-top: 5rem;
     }
 

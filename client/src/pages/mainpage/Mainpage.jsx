@@ -108,7 +108,7 @@ export default function Homepage() {
                         a beautiful website that perfectly captured my brand."
                     </p>
                     <div className='testimonial-info'>
-                        <p className='name'>Brennon Warrick</p>
+                        <p className='testimonial-name'>Brennon Warrick</p>
                         <p className='profession'>Personal Trainer</p>
                     </div>
                 </div>
