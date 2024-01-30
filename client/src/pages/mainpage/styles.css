@@ -1,21 +1,7 @@
 :root {
     --white: #fff;
     --dark-grey: #242424;
-
-    --primary-color: #3597DF;
-    --secondary-color-light: #CCC;
-    --secondary-color-dark: #A5A5A5;
-    --secondary-color-green: #84E878;
-
-    --dark-blue: #5680E9;
-    --teal: #84CEEB;
-    --light-blue: #5AB9EA;
-    --silver: #C1C8E4;
-    --purple: #8860D0;
-    
     --black: #000;
-    /* font-family: 'Bebas Neue', sans-serif; */
-    /* font-family: 'Old Standard TT', serif; */
 }
 
 /* Hero Section */
@@ -23,6 +9,8 @@
     display: flex;
     height: 100vh;
     align-items: center;
+    background-color: #202428;
+    z-index: 0.5;
 }
 
 .column-1 h1 {
@@ -36,7 +24,7 @@
     font-family: 'Old Standard TT', serif;
 }
 
-.column-1, .column-2{
+.column-1, .column-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,15 +158,12 @@
 .benefits {
     display: flex;
     align-items: start;
+    font-size: 1.4rem;
 }
 
 .benefits h2 {
     font-size: 4rem;
     font-family: 'Bebas Neue', sans-serif;
-}
-
-.benefits {
-    font-size: 1.4rem;
 }
 
 .benefits-button {
@@ -555,85 +540,494 @@
 
 @media screen and (max-width: 1024px) {
     /* Hero Section */
-    .column-1 h1 {
-        padding-right: 10rem;
+
+    #header-section {
+        justify-content: center;
     }
 
     /* About Section */
+
     #about {
-        height: 25vh;
-        margin-right: 10rem;
-        margin-left: 10rem;
+        height: 40vh;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+
+    .about-header {
+        font-size: 4rem;
     }
 
     .about-us {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     /* Feature Section */
+
     #feature-section {
-        height: 90vh;
+        height: 105vh;
+        flex-direction: column;
+        margin: 0;
     }
 
     .feature h2 {
         font-size: 3.5rem;
     }
 
+    .feature {
+        padding: 0 5rem;
+        margin: 0;
+    }
+
+    .column-1, .column-2 {
+        width: auto;
+    }
+
+    .feature-img {
+        width: 90%;
+        height: 100%;
+        padding: 2rem 5rem;
+    }
+
     /* Feature list Section */
+
     #feature-list-section {
-        height: 90vh;
+        height: 125vh;
+        flex-direction: column-reverse;
     }
 
     .item-1 h3, .item-2 h3, .item-3 h3 {
         font-size: 3.5rem;
     }
 
+    .item-1, .item-2, .item-3 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .feature-1 {
+        margin: 0;
+        padding: 0 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-list-img {
+        padding: 3rem 5rem;
+        height: 90%;
+        width: 90%;
+    }
+
+    /* Benefits Section */
+
+    #benefits-section {
+        height: 65vh;
+        margin-top: 0;
+    }
+
+    .benefits {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0 5rem;
+    }
+
+    .benefits ul {
+        text-align: start;
+    }
+
     /* Stats Section */
+
     #stats-section {
         height: 50vh;
     }
 
     .stats h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .stats {
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
 
     .stats-img-div {
-        margin-right: 10rem;
+        margin-right: 5rem;
     }
 
     /* Testimonial Section */
+
     #testimonial-section {
-        height: 50vh;
+        flex-direction: column;
+    }
+
+    .review-div {
+        text-align: center;
+        margin: 0;
     }
 
     .reviews {
-        font-size: 4.5rem;
+        font-size: 4rem;
+        padding-bottom: 3rem;
+        margin: 0;
+    }
+
+    .testimonial {
+        margin: 0;
+        padding: 0 5rem;
     }
 
     /* FAQ Section */
+
     #FAQ-section {
-        height: 210vh;
+        height: 200vh;
+        padding: 0 5rem;
+        padding-top: 5rem;
     }
 
     #FAQ-section h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     #FAQ-section h4 {
         font-size: 2rem;
     }
+
+    #FAQ-section p {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
     #header-section {
-        width: 768px;
+        height: 100svh;
+    }
+
+    .column-1 h1 {
+        font-size: 5rem;
+    }
+
+    #hero-span {
+        background: linear-gradient(to right, rgb(0, 123, 47), rgb(37, 255, 117), rgb(148, 255, 180), rgb(151, 255, 182), rgb(21, 253, 106), rgb(0, 123, 47));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    #hero-span-2 {
+        background: linear-gradient(to right, rgb(38, 0, 255), rgb(74, 192, 255), rgb(86, 230, 255), rgb(74, 192, 255), rgb(83, 129, 255), rgb(38, 0, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    #hero-span-3 {
+        background: linear-gradient(to right, rgb(118, 7, 255), rgb(188, 87, 255), rgb(223, 188, 254), rgb(223, 188, 254), rgb(188, 87, 255), rgb(118, 7, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    /* About Section */
+    #about {
+        height: 40vh;
+        height: 40svh;
+    }
+
+    .about-header {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Feature Section */
+    #feature-section {
+        height: 100vh;
+        height: 100svh;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .feature h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .feature {
+        text-align: center;
+    }
+
+    .feature ul {
+        text-align: start;
+    }
+
+    /* Feature List Section */
+    #feature-list-section {
+        height: 115vh;
+        height: 115svh;
+        flex-direction: column-reverse;
+    }
+
+    .item-1 h3, .item-2 h3, .item-3 h3 {
+        font-size: 3rem;
+    }
+
+    .item-1, .item-2, .item-3 {
+        text-align: center;
+    }
+
+    /* Benefits Section */
+    #benefits-section {
+        height: 70vh;
+        height: 70svh;
+    }
+
+    .benefits {
+        font-size: 1.2rem;
+    }
+    
+    .benefits h2 {
+        font-size: 3rem;
+    }
+
+    .benefits-button {
+        font-size: 0.9rem;
+        margin: 0;
+        margin-left: 2rem;
+    }
+
+    /* Stats Section */
+    #stats-section {
+        flex-direction: column;
+        height: 65vh;
+        height: 65svh;
+    }
+
+    .stats {
+        margin: 0;
+        padding-top: 3rem;
+    }
+
+    .stats h2 {
+        padding: 0 2rem;
+    }
+
+    .stats-img-div {
+        margin: 0;
+        padding: 2rem 5rem;
+    }
+
+    /* Testimonial Section */
+    .testimonial p {
+        font-size: 1.5rem;
+    }
+
+    /* FAQ Section */
+    #FAQ-section h4 {
+        font-size: 1.8rem;
+    }
+
+    #FAQ-section p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* FAQ Section */
+    #FAQ-section {
+        height: 180vh;
+        padding: 3rem 3rem;
+    }
+
+    #FAQ-section h2 {
+        font-size: 3rem;
+    }
+
+    #FAQ-section h4 {
+        font-size: 1.7rem;
+    }
+
+    #FAQ-section p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    /* FAQ Section */
+    #FAQ-section {
+        height: 195vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* FAQ Section */
+    #FAQ-section {
+        height: 200vh;
     }
 }
 
 @media screen and (max-width: 480px) {
+    .column-1 h1 {
+        font-size: 4rem;
+    }
 
+    /* About Section */
+    #about {
+        margin: 5rem 2rem;
+    }
+
+    .about-header {
+        font-size: 2.5rem;
+    }
+
+    .about-us {
+        font-size: 1.3rem;
+    }
+
+    /* Feature Section */
+    #feature-section {
+        height: 105vh;
+        height: 105svh;
+        flex-direction: column;
+    }
+
+    .feature h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .feature {
+        font-size: 1.2rem;
+        padding: 0 2rem;
+    }
+
+    .feature-img {
+        padding: 0;
+    }
+
+    /* Feature List Section */
+    #feature-list-section {
+        height: 110vh;
+        height: 110svh;
+        flex-direction: column-reverse;
+    }
+
+    .item-1 h3, .item-2 h3, .item-3 h3 {
+        font-size: 2.5rem;
+    }
+
+    .item-1 p, .item-2 p, .item-3 p {
+        font-size: 1.2rem;
+    }
+
+    .feature-1 {
+        padding: 5rem 2rem;
+    }
+
+    .feature-list-img {
+        padding: 0;
+    }
+
+    /* Benefits Section */
+    #benefits-section {
+        height: 75vh;
+        height: 75svh;
+    }
+
+    .benefits {
+        padding: 0 2rem;
+    }
+    
+    .benefits h2 {
+        font-size: 2.5rem;
+    }
+
+    .benefits-button-div {
+        flex-direction: column;
+    }
+
+    .benefits-button {
+        margin: 0;
+        margin-left: 0.2rem;
+    }
+
+    /* Stats Section */
+    #stats-section {
+        height: 65vh;
+        height: 65svh;
+    }
+
+    .stats h2{
+        font-size: 3.5rem;
+    }
+
+    .stats-img-div {
+        margin: 0;
+        padding: 2rem 2rem;
+    }
+
+    /* Testimonial Section */
+    #testimonial-section {
+        height: 45vh;
+        height: 45svh;
+    }
+
+    .reviews {
+        font-size: 3rem;
+    }
+
+    .testimonial {
+        padding: 0 2rem;
+    }
+
+    .testimonial p {
+        font-size: 1.3rem;
+    }
+
+    /* FAQ Section */
+    #FAQ-section {
+        height: 190vh;
+        height: 190svh;
+        padding: 2rem 2rem;
+    }
+
+    .FAQ {
+        margin-bottom: 3rem;
+    }
+
+    #FAQ-section h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    /* FAQ Section */
+    #FAQ-section {
+        height: 210vh;
+        height: 210svh;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    /* FAQ Section */
+    #FAQ-section {
+        height: 230vh;
+        height: 230svh;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    /* FAQ Section */
+    #FAQ-section {
+        height: 250vh;
+        height: 250svh;
+    }
 }

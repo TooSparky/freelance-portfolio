@@ -9,7 +9,7 @@ export default function Homepage() {
             {/* Hero Section */}
             <section id="header-section">
                 <div className='column-1 header-h1'>
-                    <h1>Innovative Website Customization</h1>
+                    <h1><span id='hero-span'>Innovative</span><span id='hero-span-2'> Website</span><span id='hero-span-3'> Customization</span></h1>
                 </div>
                 <div className='column-2'></div>
             </section>
@@ -78,7 +78,7 @@ export default function Homepage() {
                         <li><i className="fa-solid fa-check"></i>Boost Converstion Rates</li>
                         <li><i className="fa-solid fa-check"></i>Exceptional Support for Your Business</li>
                     </ul>
-                    <div>
+                    <div className='benefits-button-div'>
                         <Link target='_blank' to={'https://designpowers.com/blog/diy-website-vs-custom'} className='benefits-button'>Learn More</Link>
                         <Link to={'/services'} className='benefits-button'>See Price Ranges</Link>
                     </div>
