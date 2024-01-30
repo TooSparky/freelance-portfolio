@@ -9,8 +9,7 @@
     display: flex;
     height: 100vh;
     align-items: center;
-    background-color: #202428;
-    z-index: 0.5;
+    z-index: 0;
 }
 
 .column-1 h1 {
@@ -700,6 +699,8 @@
 
 @media screen and (max-width: 768px) {
     #header-section {
+        background-color: #202428;
+        height: 100vh;
         height: 100svh;
     }
 
