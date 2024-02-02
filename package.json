@@ -1,7 +1,7 @@
 {
   "name": "freelance-portfolio",
-  "private": true,
-  "description": "",
+  "homepage": "https://quantumsites.host",
+  "version": "0.1.0",
   "main": "index.html",
   "scripts": {
     "develop": "cd client && npm run dev",
