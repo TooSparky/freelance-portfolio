@@ -1,8 +1,23 @@
-# React + Vite
+# Freelance-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This repository changed from a freelance portfolio to a website that sells websites. I created it as a business outline, as well as good front-end development work. It is a complete website with everything except a hosting service and a domain. I learned a lot about page spacing, and how to captivate the viewers. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To install this project you would just need to npm install the dependencies and run it. To view, just use localhost or a live server. 
+
+## Usage
+
+![screenshot of the website homepage](./client/src/assets/quantumSitesScreenshot.png)
+
+To navigate through the website, simply use the navbar at the top of the page and it will take you to different pages. Besides that, scroll down through each page and explore the links assossiated. 
+
+## Credits
+
+Zachary Barnes (myself) - https://github.com/TooSparky?tab=repositories
+
+## License
+
+MIT License
